@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import NavBar from "../components/navBar.svelte";
+  import Footer from "../components/footer.svelte";
+  import Main from "../components/main.svelte";
+</script>
+
+<div class="wrapperMain">
+  <NavBar />
+  <Main />
+  <Footer />
+</div>
+
+<style>
+  .wrapperMain {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+</style>
