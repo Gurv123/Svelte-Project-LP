@@ -1,11 +1,10 @@
 <script>
-  export let books = [];
+  export let books;
 </script>
 
 <div class="books">
   {#each books as book}
     <div class="book">
-      <img src={book.coverUrl} alt={book.title} />
       <div>
         <h2>{book.title}</h2>
         <p>{book.author}</p>
@@ -16,16 +15,12 @@
 
 <style>
   .books {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
   }
 
   .book {
-    flex: 1 1 300px;
-    margin: 10px;
-  }
-
-  .book img {
-    max-width: 100%;
+    border: 1px solid #000;
   }
 </style>

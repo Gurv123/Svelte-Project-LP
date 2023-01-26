@@ -2,8 +2,8 @@
   <nav>
     <h1><a href="/">TinyAmazon</a></h1>
     <ul>
-      <li><a href="#">Add Book</a></li>
-      <li><a href="#">Add Author</a></li>
+      <li><a href="/">Add Book</a></li>
+      <li><a href="/">Add Author</a></li>
     </ul>
   </nav>
 </header>
