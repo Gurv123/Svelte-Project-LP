@@ -1,5 +1,5 @@
 <footer>
-  <p>© IUT - 2023</p>
+  <p>© Gurvan BUANIC, Florian CHICOT, Fabien RIVET - 2023</p>
 </footer>
 
 <style>

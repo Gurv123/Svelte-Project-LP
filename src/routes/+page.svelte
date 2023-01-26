@@ -1,7 +1,7 @@
 <script>
-  import NavBar from "../components/navBar.svelte";
-  import Footer from "../components/footer.svelte";
-  import Main from "../components/main.svelte";
+  import NavBar from "../components/NavBar.svelte";
+  import Footer from "../components/Footer.svelte";
+  import Main from "../components/Main.svelte";
 </script>
 
 <div class="wrapperMain">
