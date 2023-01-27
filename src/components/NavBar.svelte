@@ -2,8 +2,8 @@
   <nav>
     <h1><a href="/">TinyAmazon</a></h1>
     <ul>
-      <li><a href="/">Add Book</a></li>
-      <li><a href="/">Add Author</a></li>
+      <li><a href="/search">Search</a></li>
+      <li><a href="/">Maybe</a></li>
     </ul>
   </nav>
 </header>
@@ -11,6 +11,7 @@
 <style>
   header {
     padding: 1rem;
+    background-color: #1b1b1b;
   }
 
   header nav {
@@ -25,7 +26,7 @@
   }
 
   header nav a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
   }
 </style>
