@@ -1,9 +1,9 @@
 <header>
   <nav>
-    <h1><a href="/">TinyAmazon</a></h1>
+    <h1><a href="/">BobbyCountry</a></h1>
     <ul>
       <li><a href="/search">Search</a></li>
-      <li><a href="/">Maybe</a></li>
+      <li><a href="/continents">Continents</a></li>
     </ul>
   </nav>
 </header>

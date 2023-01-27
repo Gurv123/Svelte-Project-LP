@@ -1,6 +1,5 @@
 <script>
   import { onMount } from 'svelte';
-  import { each } from 'svelte/internal';
   import Layout from "../__layout.svelte";
 
   let params = (new URL(document.location)).searchParams;
@@ -33,7 +32,11 @@
           <p><strong>Capital :</strong> {country.capital}</p>
           <p><strong>Continent :</strong> {country.region}</p>
           <p><strong>Population :</strong> {country.population}</p>
-          <p><strong>Independent :</strong> {country.independent}</p>
+          {#if country.independent == "true"}
+            <p><strong>Independent :</strong> Yes</p>
+          {:else}
+            <p><strong>Independent :</strong> No</p>
+          {/if}
           <p><strong>Top-level domain :</strong> {country.tld}</p>
         </section>
       </div>
